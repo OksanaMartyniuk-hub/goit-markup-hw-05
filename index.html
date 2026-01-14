@@ -440,11 +440,16 @@
           <p class="footer-subscribe-text">Subscribe</p>
 
           <form class="subscribe-form">
-            <input class="subscribe-input" type="email" placeholder="E-mail" />
+            <input
+              class="subscribe-input"
+              name="email_address"
+              type="email"
+              placeholder="E-mail"
+            />
 
             <button class="subscribe-button" type="submit">
               Subscribe
-              <svg class="subscribe-icon" width="24" height="24">
+              <svg class="subscribe-icon" width="24" height="20">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -452,5 +457,9 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-open">
+      <div class="modal"></div>
+    </div>
   </body>
 </html>
